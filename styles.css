@@ -4,27 +4,32 @@
 }
 
 body {
-    background: linear-gradient(0deg, rgba(82,1,4,1) 0%, rgba(253,45,45,1) 100%);
+    background: linear-gradient(0deg, rgba(82, 1, 4, 1) 0%, rgba(253, 45, 45, 1) 100%);
     margin-top: 45px;
-    h3{
+
+    h3 {
         font-size: 24px;
     }
+
     a {
         color: rgb(17, 17, 17);
     }
+
     p {
         text-align: justify;
     }
-    #title{
+
+    #title {
         text-align: center;
         font-size: 32px;
         color: #cacaca;
         width: 100%;
-        background-color: #111111;    
+        background-color: #111111;
         position: fixed;
         top: 0;
     }
-    #footer{
+
+    #footer {
         font-size: 20px;
         text-align: center;
         color: #cacaca;
@@ -32,5 +37,74 @@ body {
         background-color: #111111;
         position: fixed;
         bottom: 0;
+    }
+
+    #container {
+        background-color: #111111;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        padding: 40px;
+        width: 100px;
+    }
+
+    #conquer {
+        border-radius: 100%;
+        background: #1d1c1c;
+        margin-bottom: 10px;
+        width: 35px;
+        height: 35px;
+
+    }
+
+    #health {
+        border-radius: 100%;
+        background: #111111;
+        margin-bottom: 10px;
+        width: 35px;
+        height: 35px;
+    }
+
+    #low {
+        border-radius: 100%;
+        background: #111111;
+        margin-bottom: 10px;
+        width: 35px;
+        height: 35px;
+    }
+
+    #restore {
+        border-radius: 100%;
+        background: #111111;
+        margin-bottom: 10px;
+        width: 35px;
+        height: 35px;
+    }
+
+    #bonerevest {
+        border-radius: 100%;
+        background: #111111;
+        margin-bottom: 10px;
+        width: 35px;
+        height: 35px;
+    }
+
+    #extrahealing {
+        border-radius: 100%;
+        background: #111111;
+        margin-bottom: 10px;
+        width: 35px;
+        height: 35px;
+    }
+    #box{
+        display: flex;
+        align-items: center;
+    }
+    #box h3{
+        font-size: 14px;
+        font-weight: 100;
+        margin-left: 5px;
+        color: antiquewhite;
     }
 }
