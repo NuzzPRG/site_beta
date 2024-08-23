@@ -1,9 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: linear-gradient(0deg, rgba(82,1,4,1) 0%, rgba(253,45,45,1) 100%);
+    margin-top: 45px;
     h3{
         font-size: 24px;
     }
     a {
         color: rgb(17, 17, 17);
+    }
+    p {
+        text-align: justify;
+    }
+    #title{
+        text-align: center;
+        font-size: 32px;
+        color: #cacaca;
+        width: 100%;
+        background-color: #111111;    
+        position: fixed;
+        top: 0;
+    }
+    #footer{
+        font-size: 20px;
+        text-align: center;
+        color: #cacaca;
+        width: 100%;
+        background-color: #111111;
+        position: fixed;
+        bottom: 0;
     }
 }
