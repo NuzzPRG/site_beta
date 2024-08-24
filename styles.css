@@ -44,9 +44,10 @@ body {
         border-radius: 25px;
         display: flex;
         flex-direction: column;
-        margin: 50px;
+        margin-left: 627px;
         padding: 40px;
-        width: 100px;
+        width: 145px;
+        height: 450px;
     }
 
     #conquer {
@@ -106,5 +107,59 @@ body {
         font-weight: 100;
         margin-left: 5px;
         color: antiquewhite;
+    }
+    #container2 {
+        background-color: #111111;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -40px;
+        padding: 40px;
+        width: 145px;
+        height: px;
+    }
+    #box2{
+        display: flex;
+        align-items: center;
+    }
+    #box2 h3{
+        font-size: 14px;
+        font-weight: 100;
+        margin-left: 5px;
+        color: antiquewhite;
+    }
+    #cutelo-negro{
+        border-radius: 100%;
+        background: #111111;
+        margin-bottom: 10px;
+        width: 35px;
+        height: 35px;
+    }
+    #sunderedsky{
+        border-radius: 100%;
+        background: #111111;
+        margin-bottom: 10px;
+        width: 35px;
+        height: 35px;
+    }
+    #hydra{
+        border-radius: 100%;
+        background: #111111;
+        margin-bottom: 10px;
+        width: 35px;
+        height: 35px;       
+    }
+    #explain {
+        color: antiquewhite;
+        background-color: #111111;
+        border-radius: 25px;
+        flex-direction: column;
+        margin-left: -400px;
+        margin-top: -486.8px;
+        padding: 120px;
+        width: 100px;
+        height: 450px;
+        display: flex;
+        text-align: justify;
     }
 }
