@@ -5,7 +5,7 @@
 
 body {
     background: linear-gradient(0deg, rgba(82, 1, 4, 1) 0%, rgba(253, 45, 45, 1) 100%);
-    margin-top: 45px;
+    height: 100vh;
 
     h3 {
         font-size: 24px;
@@ -14,7 +14,10 @@ body {
     a {
         color: rgb(17, 17, 17);
     }
-
+    a:hover{
+        cursor: pointer;
+        color: aliceblue;
+    }
     p {
         text-align: justify;
     }
@@ -38,65 +41,37 @@ body {
         position: fixed;
         bottom: 0;
     }
-
+    #main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 45px;
+        padding-bottom: 25px;
+    }
+    #mainindex{
+        margin-top: 45px;
+        margin-bottom: 25px;
+    }
     #container {
         background-color: #111111;
         border-radius: 25px;
         display: flex;
         flex-direction: column;
-        margin-left: 627px;
         padding: 40px;
         width: 145px;
-        height: 450px;
-    }
+        height: 410px;
 
-    #conquer {
+    }
+    #icons-all {
         border-radius: 100%;
         background: #1d1c1c;
         margin-bottom: 10px;
         width: 35px;
         height: 35px;
-
     }
-
-    #health {
-        border-radius: 100%;
-        background: #111111;
-        margin-bottom: 10px;
-        width: 35px;
-        height: 35px;
-    }
-
-    #low {
-        border-radius: 100%;
-        background: #111111;
-        margin-bottom: 10px;
-        width: 35px;
-        height: 35px;
-    }
-
-    #restore {
-        border-radius: 100%;
-        background: #111111;
-        margin-bottom: 10px;
-        width: 35px;
-        height: 35px;
-    }
-
-    #bonerevest {
-        border-radius: 100%;
-        background: #111111;
-        margin-bottom: 10px;
-        width: 35px;
-        height: 35px;
-    }
-
-    #extrahealing {
-        border-radius: 100%;
-        background: #111111;
-        margin-bottom: 10px;
-        width: 35px;
-        height: 35px;
+    #icons-all:hover {
+        cursor: pointer;
+        transform: scale(1.1);
     }
     #box{
         display: flex;
@@ -108,58 +83,16 @@ body {
         margin-left: 5px;
         color: antiquewhite;
     }
-    #container2 {
-        background-color: #111111;
-        border-radius: 25px;
-        display: flex;
-        flex-direction: column;
-        margin-left: -40px;
-        padding: 40px;
-        width: 145px;
-        height: px;
-    }
-    #box2{
-        display: flex;
-        align-items: center;
-    }
-    #box2 h3{
-        font-size: 14px;
-        font-weight: 100;
-        margin-left: 5px;
-        color: antiquewhite;
-    }
-    #cutelo-negro{
-        border-radius: 100%;
-        background: #111111;
-        margin-bottom: 10px;
-        width: 35px;
-        height: 35px;
-    }
-    #sunderedsky{
-        border-radius: 100%;
-        background: #111111;
-        margin-bottom: 10px;
-        width: 35px;
-        height: 35px;
-    }
-    #hydra{
-        border-radius: 100%;
-        background: #111111;
-        margin-bottom: 10px;
-        width: 35px;
-        height: 35px;       
-    }
     #explain {
         color: antiquewhite;
         background-color: #111111;
         border-radius: 25px;
-        flex-direction: column;
-        margin-left: -400px;
-        margin-top: -486.8px;
-        padding: 120px;
-        width: 100px;
-        height: 450px;
-        display: flex;
+        margin-right: 10px;
+        padding: 50px;
+        width: 400px;
         text-align: justify;
+    }
+    hr{
+        margin-bottom: 15px;
     }
 }
