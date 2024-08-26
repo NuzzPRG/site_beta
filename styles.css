@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient(0deg, rgba(82, 1, 4, 1) 0%, rgba(253, 45, 45, 1) 100%);
+    background: rgb(165, 29, 34);
     height: 100vh;
 
     h3 {
